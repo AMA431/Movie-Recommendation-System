@@ -1,4 +1,3 @@
-
 # Movie Recommendation System
 
 A simple movie recommendation system built using **Collaborative Filtering**.
