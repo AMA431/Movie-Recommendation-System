@@ -37,3 +37,29 @@ in the simplest possible way.
 ---
 
 ## 📁 Project Structure
+┌─────────────────────┐
+│   User Ratings      │
+│   (Data)            │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│  Rating Matrix      │
+│  (Pivot Table)      │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Cosine Similarity   │
+│ (Find similar users)│
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Score & Rank Movies │
+└──────────┬──────────┘
+           │
+           ▼
+┌─────────────────────┐
+│ Top-N Recommendations│
+└─────────────────────┘
